@@ -35,27 +35,25 @@
 						<!-- Post -->
 							<section class="post">
 								<header class="major">
-									<span class="date">October 20, 2025</span>
-									<h1>Project Three<br />
+									<span class="date">November 3, 2025</span>
+									<h1>Project Four<br />
 									3D Printing Journey</h1>
-									<p>This project showcases the process designing and remixing my 3D prints using two softwares, Tinkercad and Fusion.</p>
+									<p>This project showcases my process of designing and refining a functional 3D-printed bottle cap using Fusion 360, focusing on parametric modeling, threading techniques, and print optimization.</p>
 								</header>
 								<div class="image main"><img src="images/Project three prints.jpg" alt="Prototyping Prints" /></div>
 								
 								<h2>Project Overview</h2>
-								<p>For Project 3, I was introduced to the fundamentals of electronics prototyping through soldering and assembling a not working radio kit. This was my first time working with electronic components, and I slightly learned how resistors, capacitors, and transistors work together to complete a circuit. The soldering process was both challenging and fun. Seeing how close and steady you need to be when soldering allowed me to gain a new appreciation for solders. After several attempts, I successfully assembled the radio however, I was not able to power it. But this was not the goal of the project.</p>
+								<p>For project four, I designed and 3D-printed a parameter-based bottle cap that can be customized for any container. The goal was to create a solution for the common problem of pump bottles leaving a significant amount of product at the bottom or on the sides, forcing users to cut open or discard partially filled bottles. My design aims to replace those pump caps with a reusable screw-top lid that can fit almost any bottle through adjustable parameters in Fusion 360.</p>
 								
 								<h2>Technologies Used</h2>
 								<ul>
 									<li>3D Printer: Prusa Mini</li>
-									<li>Design Software: Fusion & Tinkercad</li>
-									<li>Laser cutting</li>
-									<li>LightBurn</li>
+									<li>Design Software: Fusion</li>
 									<li>Slicing Software: PrusaSlicer</li>
 									<li>Materials: PLA.</li>
 								</ul>
 
-								<h2>Radio Boc</h2>
+								<h2>Bottle Cap</h2>
 								<div class="row">
 									<div class="col-6 col-12-small">
 										<h3>Design Phase</h3>
@@ -65,8 +63,15 @@ This project showed me how remixing an existing model can still be a creative pr
 									</div>
 									<div class="col-6 col-12-small">
 										<h3>Polaroid Holder</h3>
-										<p>Throughout the process, I went through six different prototype iterations in TinkerCad, each time adjusting wall thickness, tolerance, and internal spacing to improve the fit of the radio components. Some of the early prints had warping issues or lids that didn’t fully close due to the incorrect amount of tolerances. With guidance from professor Krones, and classmates, I returned to Fusion 360 to finalize a more precise version of the enclosure. Working in Fusion allowed me to better control measurements, align parts accurately, and design more structurally sound walls and edges. While this version solved the earlier warping issues, the tolerance was still slightly off, as shown in picture XXX.
-											The final step of the project was to recreate the enclosure using the laser cutter, which would allow for cleaner edges and better dimensional accuracy. Although I was not able to complete that portion before the project deadline, my plan is to continue refining my design and experiment with laser cutting.
+										<p>I began by modeling a simple cylinder cap and cutting a center hole to form the basic geometry. Next, I started to do my research in threading specifically thread pitch, major and minor diameters, and tolerance. 
+											I took physical measurements from several examples, such as the in-class hand sanitizer cap and my personal lotion bottle. 
+											My measurements for my lotion bottle were: major diameter of 24.20 mm, a minor diameter of 22 mm, a pitch of 2.60 mm, and an inside lid height of 10 mm. 
+											After collecting these measurements, I started using the thread feature in Fusion 360 but realized that it was difficult to customize. 
+											I tried a few prints with the threads but with more research, I found that a lot of people prefer using the coil feature to model threads, because of its flexibility and control. 
+											When I made the switch to use coils instead of threads I noticed a difference with my final print. To optimize print quality, I set the print orientation upside-down in PrusaSlicer to avoid unnecessary supports. 
+											After noticing that supports caused webbing and clogging between the threads our TA Avery, taught me that not all prints required supports and that if we change the printing face we can possibly remove supports. 
+											So I rotated my model 180 degrees which removed the need for supports but also reduced print time. 
+											The final print fit securely on my lotion bottle and demonstrated a repeatable, adjustable model that others could use by simply changing key parameters such as pitch, major and minor diameter, and height.
 										</p>
 									</div>
 								</div>
@@ -92,7 +97,7 @@ This project showed me how remixing an existing model can still be a creative pr
 								</ul>
 
 								<h2>Future Improvements</h2>
-								<p>Overall, this project taught me a great deal about integrating electronics with digital fabrication. I learned how critical measurement accuracy is when transitioning between different design platforms, how tolerances affect print quality and fit, and how to iterate on prototypes to solve design issues. It also allowed me to learn how hardware design must be very accurate in order to create a functional and well-finished product.</p>
+								<p>This project taught me a lot about functional design, tolerances, and 3D-printing efficiency. I successfully created a customizable model that solves a real world problem, and I gained confidence in measuring and applying threading parameters. Throughout the process, I learned the difference between the thread and coil tools in Fusion 360. You can find my print on printables using this link.</p>
 
 								<!-- Action buttons -->
 								<ul class="actions special">
